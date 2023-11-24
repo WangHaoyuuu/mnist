@@ -17,6 +17,7 @@
 - 环境配置.py 所有相关 conda 和 pytorch 以及 pip 安装
 - requirements.txt 所有相关 pip 安装
 - detect.py : 用于检测图片的标签
+- mnist.pt : 训练好的模型
 
 ## 环境安装
 - python环境
