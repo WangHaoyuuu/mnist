@@ -11,7 +11,7 @@
   - test 文件夹是经过 convert.py 转换后的图片
   - train.txt 是经过 convert.py 转换后的图片对应的标签
   - test.txt 是经过 convert.py 转换后的图片对应的标签
-- convert.py : 用于将以字节的形式进行存储的数据转换为可见的形式
+- convert_to_jpgs_txts.py : 用于将以字节的形式进行存储的数据转换为可见的形式
 - main.py : 项目主体文件
 - verify_torch_GPU.py : 用于检测 GPU 是否可用
 - 环境配置.py 所有相关 conda 和 pytorch 以及 pip 安装
