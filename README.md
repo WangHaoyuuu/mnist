@@ -18,6 +18,12 @@
 - requirements.txt 所有相关 pip 安装
 - detect.py : 用于检测图片的标签
 - mnist.pt : 训练好的模型
+- gradio_view.py : 用于在网页上进行展示
+- flagged文件夹：gradio结果的记录(可选)
+
+## 结果预览
+
+![示例图片](example.png)
 
 ## 环境安装
 - python环境
