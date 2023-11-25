@@ -65,7 +65,7 @@ def train(model, device, train_loader, optimizer, epoch):
     total = len(train_loader.dataset)  # 训练数据总数量
     
     # 创建训练进度条，并设置显示轮数、数据加载器、描述和 leave 参数为False
-    progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), desc=f'Epoch {epoch}', leave=False)
+    progress_bar = tqdm(enumerate(train_loader), total=len(train_loader), desc=f'Epoch {epoch}', leave=True)
     
     for batch_idx, (data, target) in progress_bar:  # 遍历训练数据
         data, target = data.to(device), target.to(device)  # 将数据和目标转移到指定设备上
